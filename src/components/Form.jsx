@@ -47,7 +47,6 @@ const Form = () => {
         if (step === 5 && (!formData.contact || !formData.preferredTime)) return true;
         return false;
     };
-    console.log(isNextDisabled());
 
 
     return (
